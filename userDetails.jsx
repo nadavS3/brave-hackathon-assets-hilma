@@ -56,7 +56,7 @@ export default function UserDetails(props) {
 const styles = StyleSheet.create({
     container: {
         zIndex: 10,
-        flex: 4/7,
+        flex: 3/7,
         flexDirection: 'column',
         // borderBottom: 90,
         borderBottomLeftRadius: 60,
@@ -78,40 +78,40 @@ const styles = StyleSheet.create({
         elevation: 29,
     },
     personImage: {
-        width: vw(33),
-        height: vw(33),
+        width: vw(23),
+        height: vw(23),
         top: vh(6),
         marginBottom: vh(6),
         borderRadius: 100
     },
     text: {
         top: vh(2),
-        fontSize: vw(8),
+        fontSize: vw(7),
         color: 'black',
         marginBottom: vh(4),
         fontFamily: getFontName('rubik-bold'),
     },
     details: {
         width: '100%',
-        top: vh(5),
+        top: vh(2),
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'flex-end'
     },
     mainText: {
-        fontSize: vw(4),
+        fontSize: vw(3.5),
         color: '#ababab',
         textAlign: 'center',
     },
     data: {
-        fontSize: vw(8),
+        fontSize: vw(6),
         color: 'black',
         textAlign: 'center',
         fontFamily: getFontName('rubik-bold'),
     },
     border: {
         width: vw(0.3),
-        height: vh(10),
+        height: vh(7),
         backgroundColor: '#9c9b9a'
     },
 });
